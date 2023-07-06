@@ -1,0 +1,66 @@
+html,
+body {
+    height: 100%;
+    background: rebeccapurple;
+}
+
+img {
+    width: 100px;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin: 2rem 25%;
+}
+
+.flex {
+    width: 15vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    box-shadow: 0 0 1rem;
+    background: #1c1c1c;
+}
+
+.flex input {
+    display: block;
+    width: 80%;
+    height: 5vh;
+    font-size: 2vh;
+    margin-left: 8%;
+    border-radius: 5px;
+}
+
+.flex input:focus-within {
+    z-index: 2;
+}
+
+.flex input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.flex input[type="password"] {
+    margin-bottom: 1.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+button {
+    width: 5vw;
+    margin-left: 5vw;
+    color: white;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: crimson;
+}
