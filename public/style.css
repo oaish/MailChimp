@@ -36,28 +36,34 @@ img {
     height: 5vh;
     font-size: 2vh;
     margin-left: 8%;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 .flex input:focus-within {
     z-index: 2;
 }
 
-.flex input[type="email"] {
+.top {
     margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
-.flex input[type="password"] {
-    margin-bottom: 1.5rem;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+.mid {
+    margin-bottom: -1px;
+    border-radius: 0;
 }
+
+.flex input[type="email"] {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
 
 button {
     width: 5vw;
     margin-left: 5vw;
+    margin-top: 1vw;
     color: white;
     border: 0;
     padding: 0.5rem;
