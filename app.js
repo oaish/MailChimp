@@ -50,8 +50,8 @@ app.post('/', (req, res) => {
     request.end();
 })
 
-app.listen(3000, () => {
-    console.log("Listening on port http://localhost:3000")
+app.listen(process.env.PORT || 3000, () => {
+    console.log("Listening on port http://localhost:3000 or " + process.env.PORT)
 })
 
 //522c8c06d169967979afc440d01eb130-us21
